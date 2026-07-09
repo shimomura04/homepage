@@ -15,6 +15,6 @@
 
 - Visual Studio Code
 
-### 機動コマンド
+### 起動コマンド
 
 - npm run dev
