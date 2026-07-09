@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>フォーム</title>
+  </head>
+
+  <body>
+    <div id="swiper_container">
+      <!-- swiper１つ目 -->
+      <div>
+        <div class="swiper_1">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide" id="slide1-1">
+              <img src="/src/assets/buranko_boy_sad.png" alt="スライド1" />
+            </div>
+
+            <div class="swiper-slide" id="slide1-2">
+              <img src="/src/assets/buranko_girl_sad.png" alt="スライド2" />
+            </div>
+
+            <div class="swiper-slide" id="slide1-3">
+              <img src="/src/assets/buranko_boy_smile.png" alt="スライド3" />
+            </div>
+          </div>
+
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-scrollbar"></div>
+        </div>
+
+        <div class="swiper_status_1" id="swiper_status_1"></div>
+      </div>
+
+      <!-- swiper２つ目 -->
+      <div>
+        <div class="swiper_2">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide" id="slide2-1">
+              <img src="/src/assets/buranko_boy_sad.png" alt="イラスト1" />
+            </div>
+
+            <div class="swiper-slide" id="slide2-2">
+              <img src="/src/assets/buranko_girl_sad.png" alt="イラスト2" />
+            </div>
+
+            <div class="swiper-slide" id="slide2-3">
+              <img src="/src/assets/buranko_boy_smile.png" alt="イラスト3" />
+            </div>
+          </div>
+
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-scrollbar"></div>
+        </div>
+
+        <div class="swiper_status_2" id="swiper_status_2"></div>
+      </div>
+    </div>
+
+    <!-- フォーム -->
+    <form id="basic_form" novalidate>
+      <div>
+        <label>
+          <span>名前</span>
+          <div>
+            <input
+              id="basic_name"
+              type="text"
+              name="name"
+              placeholder="名前を入力してください。"
+            />
+          </div>
+        </label>
+      </div>
+      <div>
+        <label>
+          <span>メールアドレス</span>
+          <div>
+            <input
+              id="basic_email"
+              type="text"
+              name="email"
+              placeholder="メールアドレスを入力してください。"
+            />
+          </div>
+        </label>
+      </div>
+      <div>
+        <label>
+          <span>パスワード</span>
+          <div>
+            <input
+              id="basic_password"
+              type="text"
+              name="password"
+              placeholder="パスワードを入力してください。"
+            />
+          </div>
+        </label>
+      </div>
+      <div>
+        <label>
+          <span>年齢</span>
+          <div>
+            <input
+              id="basic_age"
+              type="text"
+              name="age"
+              placeholder="年齢を入力してください。"
+            />
+          </div>
+        </label>
+      </div>
+      <div>
+        <label>
+          <span>住所</span>
+          <div>
+            <input
+              id="basic_address"
+              type="text"
+              name="address"
+              placeholder="住所を入力してください。"
+            />
+          </div>
+        </label>
+      </div>
+      <button type="submit">送信</button>
+    </form>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

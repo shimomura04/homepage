@@ -1,0 +1,76 @@
+#basic_form {
+  width: 600px;
+  padding: 50px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  background-color: rgb(225, 225, 225);
+  border-radius: 10px;
+}
+
+#basic_form > div {
+  padding: 10px;
+}
+
+#basic_form label {
+  display: flex;
+  font-weight: bold;
+}
+
+#basic_form label span {
+  display: inline-block;
+  width: 150px;
+}
+
+#basic_form label div {
+  flex: 1;
+}
+
+#basic_form input {
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+#basic_form button {
+  display: block;
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  width: 200px;
+  margin: 20px auto 0 auto;
+  background-color: #0144ff;
+}
+
+#swiper_container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.swiper_1,
+.swiper_2 {
+  position: relative;
+  width: 500px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.swiper_status_1,
+.swiper_status_2 {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.swiper-slide {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  width: 40%;
+  height: auto;
+}
