@@ -11,6 +11,12 @@
 - CSS
 - JavaScript
 
+### 使用技術
+
+- vite
+- JustValidate
+- Swiper
+
 ### 使用ツール
 
 - Visual Studio Code
