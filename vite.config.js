@@ -3,6 +3,7 @@ import { resolve } from 'path';
 
 export default defineConfig({
   build: {
+    outDir: 'docs',
     rollupOptions: {
       input: {
         main: resolve(import.meta.dirname, 'index.html'),

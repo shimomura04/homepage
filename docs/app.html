@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>App</title>
+    <script type="module" crossorigin src="/assets/app-B-oo3STD.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/style-lkmA2Dgx.js">
+    <link rel="stylesheet" crossorigin href="/assets/style-qIjXAZJF.css">
+  </head>
+  <body>
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide" id="slide1">
+          Slide 1<img src="/src/assets/buranko_boy_sad.png" alt="スライド1" />
+        </div>
+        <div class="swiper-slide" id="slide2">
+          Slide 2<img src="/src/assets/buranko_girl_sad.png" alt="スライド2" />
+        </div>
+        <div class="swiper-slide" id="slide3">
+          Slide 3<img src="/src/assets/buranko_boy_smile.png" alt="スライド3" />
+        </div>
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+      <!-- If we need scrollbar -->
+      <div class="swiper-scrollbar"></div>
+    </div>
+    <div class="swiper_status" id="swiper_status"></div>
+
+    <form id="basic_form" novalidate>
+      <div>
+        <label>
+          <span>名前</span>
+          <div>
+            <input
+              id="basic_name"
+              type="text"
+              name="name"
+              placeholder="名前を入力してください。"
+            />
+          </div>
+        </label>
+      </div>
+      <div>
+        <label>
+          <span>メールアドレス</span>
+          <div>
+            <input
+              id="basic_email"
+              type="text"
+              name="email"
+              placeholder="メールアドレスを入力してください。"
+            />
+          </div>
+        </label>
+      </div>
+      <div>
+        <label>
+          <span>パスワード</span>
+          <div>
+            <input
+              id="basic_password"
+              type="text"
+              name="password"
+              placeholder="パスワードを入力してください。"
+            />
+          </div>
+        </label>
+      </div>
+      <div>
+        <label>
+          <span>年齢</span>
+          <div>
+            <input
+              id="basic_age"
+              type="text"
+              name="age"
+              placeholder="年齢を入力してください。"
+            />
+          </div>
+        </label>
+      </div>
+      <div>
+        <label>
+          <span>住所</span>
+          <div>
+            <input
+              id="basic_address"
+              type="text"
+              name="address"
+              placeholder="住所を入力してください。"
+            />
+          </div>
+        </label>
+      </div>
+      <button type="submit">送信</button>
+    </form>
+  </body>
+</html>
