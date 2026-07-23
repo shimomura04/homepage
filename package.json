@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "just-validate": "^4.3.0",
-    "swiper": "^12.2.0"
+    "swiper": "^12.2.0",
+    "viewerjs": "^1.11.8"
   }
 }

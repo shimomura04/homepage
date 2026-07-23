@@ -1,1 +1,0 @@
-import"./style-lkmA2Dgx.js";window.alert(`app.js!`);
