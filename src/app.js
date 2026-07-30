@@ -32,7 +32,7 @@ for (let i = 0; i < sections.length; i++) {
       // 現在表示中の画像と、背景要素を両方取得しているとき
       if (currentImage && backgroundImage) {
         backgroundImage.style.backgroundImage = `url("${currentImage.src}")`;
-        // id"backgroundImage"のhtml要素が入った変数の、backgroundImageというcssプロパティに、現在表示中の画像URLを反映させる。
+        // id"backgroundImage"のhtml要素が入った変数の、backgroundImageというcssに、現在表示中の画像URLを反映させる。
       }
     },
   });
